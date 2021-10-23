@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>QR-CODE</title>
+</head>
+<meta charset="UTF-8">
+<meta name="vievport" content="width=device-width, initial-scale=1.0 ">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>
+    AR in WEB
+</title>
+</head>
+
+<body>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- we import arjs version without NFT but with marker + location based support -->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <a-scene embedded arjs>
+        <a-marker url=https://github.com/Stas-sss/qrcodes/blob/gh-pages/photo_2021-10-23_15-29-45>
+            <a-entity position="0 0 0 " scale="1 1 1 " patt-model="https://github.com/Stas-sss/qrcodes/blob/gh-pages/tiger.patt"> </a-entity>
+        </a-marker>
+        <a-entity camera>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
